@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="70f37778-7715-4f9f-9a4e-e7ce6a68b280"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="op_app_demo">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="f175a4d3-6f17-4fd3-a06c-41a9e09d8665">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="3ecc3f31-ca83-4d4a-b904-08852327c04a"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='iexplore']
+				</path>
+			</info>
+		</closeapprecorditem>
+		<closeapprecorditem
+		enabled="False"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="d3585205-edcf-41f9-98c1-f05066f3feb6">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="3ecc3f31-ca83-4d4a-b904-08852327c04a"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='op2-op-v3dev1:10039' and @visible='True' and @state='complete']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="0d6ee56c-87be-4df6-97b3-a49c397e2b57"
+	name="op_app_demoRepository"
+	relativepath="op_app_demoRepository.rxrep">
+		<codegen
+		classname="op_app_demoRepository"
+		namespace="op_app_demo">
+		</codegen>
+		<rootfolder
+		id="fc2b0a9a-96d6-49f4-b64a-8c5a78819d5c"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

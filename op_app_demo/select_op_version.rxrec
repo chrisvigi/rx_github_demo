@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="832e8c69-31a8-4da0-b81d-fbfc19628145"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="select_op_version"
+	namespace="op_app_demo">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<explicitdelayitem
+		duration="5000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="CenterLeft"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="65ec5f7e-59b0-4d23-8737-5a723ed74750"
+		sx="325"
+		sy="163"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="21c8f28e-cbf5-4889-9469-f5f6a2be3276"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="firefoxweb"
+				hasfocus="False"
+				index="1"
+				prefcap="atag"
+				rect="281,155,90,32"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						OPP_SIT
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						javascript:;
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="aria-haspopup"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="dojoattachpoint"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="onclick"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="wairole"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='op2-op-v3dev1:10039']//div[#'navTabs']/ul//a[@innertext='OPP_SIT']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="23aabaf1-d183-4d4f-9bdc-f10ffa53b611">
+				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
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="0d6ee56c-87be-4df6-97b3-a49c397e2b57"
+	name="op_app_demoRepository"
+	relativepath="op_app_demoRepository.rxrep">
+		<codegen
+		classname="op_app_demoRepository"
+		namespace="op_app_demo">
+		</codegen>
+		<rootfolder
+		id="fc2b0a9a-96d6-49f4-b64a-8c5a78819d5c"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		select_op_version.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
