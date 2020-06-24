@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="a063b72e-265a-4bbe-baa1-4058d6cb02f2"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="op_rec_0624"
+	namespace="op_app_demo">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="0d6ee56c-87be-4df6-97b3-a49c397e2b57"
+	name="op_app_demoRepository"
+	relativepath="op_app_demoRepository.rxrep">
+		<codegen
+		classname="op_app_demoRepository"
+		namespace="op_app_demo">
+		</codegen>
+		<rootfolder
+		id="fc2b0a9a-96d6-49f4-b64a-8c5a78819d5c"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		op_rec_0624.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
